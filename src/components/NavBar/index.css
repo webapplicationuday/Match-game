@@ -1,0 +1,59 @@
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #2c0e3a;
+  height: 15vh;
+}
+
+.logo-title-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  width: 200px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 16px;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.time-logo {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-right: 3px;
+}
+
+.timer {
+  color: #fec653;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+
+.counter {
+  color: #fec653;
+  font-size: 18px;
+}
